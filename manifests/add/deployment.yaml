@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: add
-        image: heroacr007.azurecr.io/todo-add:v1
+        image: awasthi1234321.azurecr.io/todo-add:v1
         ports:
         - containerPort: 8000
         env:
         - name: CONNECTION_STRING
           value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:ajaysqlserver007.database.windows.net,1433;Database=ajaysqldb007;Uid=achinta;Pwd=Raju@834068;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+
